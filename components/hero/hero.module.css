@@ -74,7 +74,9 @@
   position: relative;
   object-fit: cover;
   overflow: hidden;
-  margin-top: -5rem;
+  width: 100%;
+  margin-top: -8rem;
+  z-index: -10;
 }
 
 .kababs {
@@ -82,6 +84,7 @@
   font-size: 8rem;
   font-family: "Abhaya Libre", serif;
   font-weight: 700;
+  letter-spacing: -14px;
   color: red;
 }
 
@@ -113,4 +116,34 @@
   font-weight: 1000;
   color: black;
   font-style: oblique;
+}
+
+@media screen and (max-width: 320px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 71rem;
+  }
+  .slider {
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: -2rem;
+    margin-bottom: -4rem;
+  }
+  .content {
+    width: 70rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  .image img {
+    z-index: -12;
+  }
 }

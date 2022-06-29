@@ -12,6 +12,7 @@
   font-family: "Poppins", sans-serif;
   padding-left: 3rem;
   padding-top: 2rem;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -26,8 +27,7 @@
   list-style: none;
   justify-content: space-between;
   height: 1.6rem;
-  margin-left: 4rem;
-  margin-right: -4rem;
+  margin-right: -16rem;
   min-width: 50px;
 }
 
@@ -44,8 +44,8 @@
 .icon {
   flex: 3;
   display: flex;
-  gap: 2rem;
-  justify-content: center;
+  gap: 3rem;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: row;
 }

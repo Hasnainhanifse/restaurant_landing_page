@@ -20,16 +20,6 @@ export default function Hero() {
           <button className={style.btn_cart}>Add To Cart</button>
           <button className={style.btn_book}>Book a Table</button>
         </div>
-        <div className={style.time}>
-          <div>
-            <p>Lunch</p>
-            <time>1:00-3:00pm</time>
-          </div>
-          <div>
-            <p>Dinner</p>
-            <time>1:00-3:00pm</time>
-          </div>
-        </div>
       </div>
       <div className={style.image}>
         <img src="images/Hero Image.png" alt="Hero Image" />

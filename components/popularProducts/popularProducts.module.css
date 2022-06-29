@@ -1,0 +1,71 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", "Abhaya Libre";
+  align-items: center;
+  margin-top: 4rem;
+  min-width: 1200px;
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+  width: 100%;
+}
+.heading p {
+  color: black;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.heading_name {
+  color: red;
+  font-family: "Abhaya Libre";
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: -6px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.products div {
+  align-items: center;
+  flex: 1;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.product_country {
+  font-size: 0.8rem;
+}
+
+.product_star {
+  transform: rotate(90deg);
+  width: 0.8rem;
+  margin: -3rem 0;
+}
+
+.product_name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: red;
+}
+.product_button {
+  margin-top: 2rem;
+  color: white;
+  background-color: red;
+  border: 0px solid;
+  height: 2rem;
+  border-radius: 0.6rem;
+  width: 8rem;
+  border-bottom-right-radius: 4rem;
+}
