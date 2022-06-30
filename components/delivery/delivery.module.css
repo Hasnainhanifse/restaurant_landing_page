@@ -1,0 +1,33 @@
+.delivery {
+  display: flex;
+  margin-top: 12rem;
+  min-width: 1200px;
+  width: 100%;
+  padding: 4rem;
+}
+
+.slider {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.poster {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  background-color: rgb(200, 180, 193, 6);
+  border: 0px solid;
+  border-radius: 20px;
+}
+
+.button {
+  margin-top: 1rem;
+  color: white;
+  background-color: red;
+  border: 0px solid;
+  height: 2rem;
+  border-radius: 0.6rem;
+  width: 10rem;
+  border-bottom-right-radius: 4rem;
+}

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Delivery from "../components/delivery/delivery";
 import Hero from "../components/hero/hero";
 import PopularProducts from "../components/popularProducts/popularProducts";
 import Header from "../layout/header";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <Hero />
       <PopularProducts />
+      <Delivery />
     </div>
   );
 }
